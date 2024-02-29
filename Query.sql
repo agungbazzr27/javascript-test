@@ -1,0 +1,1 @@
+SELECT d.data_id AS ID,d.data_nama AS Nama, dt.data_key AS Data_Key, dt.data_val AS Data_Value FROM `data` d LEFT JOIN data_detail dt ON d.data_id = dt.data_id;
